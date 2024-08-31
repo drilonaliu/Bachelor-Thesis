@@ -1,0 +1,3 @@
+[submodule "Parallel-Koch-Snowflake"]
+	path = Parallel-Koch-Snowflake
+	url = https://github.com/drilonaliu/Parallel-Koch-Snowflake
