@@ -7,3 +7,6 @@
 [submodule "Parallel-Fractal-Tree"]
 	path = Parallel-Fractal-Tree
 	url = https://github.com/drilonaliu/Parallel-Fractal-Tree
+[submodule "Parallel-Mandelbrot-Set"]
+	path = Parallel-Mandelbrot-Set
+	url = https://github.com/drilonaliu/Parallel-Mandelbrot-Set
