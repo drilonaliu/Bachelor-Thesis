@@ -1,3 +1,6 @@
 [submodule "Parallel-Koch-Snowflake"]
 	path = Parallel-Koch-Snowflake
 	url = https://github.com/drilonaliu/Parallel-Koch-Snowflake
+[submodule "Parallel-Sierpinski-Triangle"]
+	path = Parallel-Sierpinski-Triangle
+	url = https://github.com/drilonaliu/Parallel-Sierpinski-Triangle
