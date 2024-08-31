@@ -1,0 +1,80 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Welcome to Overleaf --- just edit your LaTeX on the left,
+% and we'll compile it for you on the right. If you open the
+% 'Share' menu, you can invite other users to edit at the same
+% time. See www.overleaf.com/learn for more info. Enjoy!
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+\documentclass{report}
+\usepackage{subfigure}
+% \usepackage[albanian]{babel}
+\usepackage{listings}
+\usepackage{color}
+\usepackage{graphicx}
+\usepackage{pgfplots}
+\usepackage{booktabs}
+\usepackage{pgfplots}
+\usepackage{pdfpages}
+\pgfplotsset{compat=1.17}
+\usepackage{hyperref}
+\graphicspath{ {./images/} }
+
+
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amscd}
+\usepackage{amsthm}
+
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+
+\lstset{frame=tb,
+  language=C++,
+  aboveskip=1mm,
+  belowskip=1mm,
+  showstringspaces=false,
+  columns=flexible,
+  basicstyle={\small\ttfamily},
+  numbers=none,
+  numberstyle=\tiny\color{gray},
+  keywordstyle=\color{blue},
+  commentstyle=\color{dkgreen},
+  stringstyle=\color{mauve},
+  numbers=left, % Add line numbering
+  breaklines=true,
+  breakatwhitespace=true,
+  tabsize=1
+}
+\begin{document}
+
+\renewcommand\bibname{Referencat}
+\renewcommand{\chaptername}{Kapitulli}
+\renewcommand{\contentsname}{Përmbajtja}
+\renewcommand\appendixname{Apendiks}
+\renewcommand{\figurename}{Figura}
+\renewcommand{\tablename}{Tabela}
+
+\newpage
+\includepdf[pages={1}]{coverPage.pdf}
+\include{0_deklarate}
+\include{0_abstract}
+\tableofcontents
+\include{1_hyerje}
+\include{2_cuda}
+\include{3_koch}
+\include{4_tree}
+\include{5_sierpinski}
+\include{6_mandelbrot}
+\include{7_perfundimi}
+\include{8_referencat}
+\appendix
+\include{8_apendiks}
+\newpage
+\end{document}

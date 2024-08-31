@@ -1,0 +1,9 @@
+\chapter{Hyrje}
+
+Fraktalet janë modele të vetë-ngjashme të cilat gjenden në natyrë dhe matematikë, të karakterizuara nga struktura e tyre rekursive dhe kompleksiteti i tyre i pafundëm. Fraktalet mund të kuptohen si imazhe me madhësi të pafundme, të cilat nësë zmadhohen, do të fitohet imazhi në fillim i pa zmadhuar. Kompjutimi i fraktaleve, për nivele të larta të iterimeve (rekursioneve), kërkon hapësirë memorike dhe fuqi procesorike të lartë kur ekzekutohen në procesorë tradicional sekuencial. 
+
+\noindent \\ Programimi paralel ofron zgjidhje në këtë problem duke ndarë punën në shumë procesorë, që punojnë në paralel, duke reduktuar kështu kohën e nevojshme për të gjeneruar fraktale me iteracione të larta. CUDA (Compute Unified Device Architecture) e zhvilluar nga NVIDIA, është një platformë që mundëson programimin paralel në GPU me mijëra procesorë duke punuar në paralel. CUDA mund të shfrytëzojnë vetëm pajisjet që kanë GPU të NVIDIA dhe për zhvillim të aplikacioneve mbështet gjuhët programuese C, C++, Fortran dhe Python. Në këtë punim është përdorur gjuha programuese C++.
+
+\noindent \\ Përveç përdorimit të CUDA për përshpejtim të llogaritjes, OpenGL është përdorur për vizualizim të fraktaleve. Duke shfrytëzuar interoperobalitetin e CUDA dhe OpenGL, është mundësuar që llogaritjet e bëra në GPU të mos kenë nevojën e transferimit në CPU, por të lexohen direkt për në GPU nga OpenGL për vizualizim.  
+
+\noindent \\ Në ketë punim janë shtjellluar fraktalet: Koch Snowflake, Fractal Tree, Sierpinski Triangle dhe Mandelbrot Set. Për secilin fraktal, do të shpjegohet përkufizimi, se si do të bëhet paralelizimi, kerneli dhe krahasimet mes versionit sekuencial dhe atij paralel. Në kapitullin e dytë jepen disa informata për CUDA dhe OpenGl. 
