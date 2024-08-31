@@ -4,3 +4,6 @@
 [submodule "Parallel-Sierpinski-Triangle"]
 	path = Parallel-Sierpinski-Triangle
 	url = https://github.com/drilonaliu/Parallel-Sierpinski-Triangle
+[submodule "Parallel-Fractal-Tree"]
+	path = Parallel-Fractal-Tree
+	url = https://github.com/drilonaliu/Parallel-Fractal-Tree
