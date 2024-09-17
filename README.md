@@ -18,7 +18,7 @@ Check each submodules on this repository too see in detail the implementation of
    <img src="Latex/tree_7.png">
 </p>
 
-## Sierpniski Triangle
+## Sierpinski Triangle
 <p>
    <img src="Latex/triangle_8.png">
 </p>
